@@ -136,6 +136,7 @@ ul li a:hover {
 .action__btns {
   display: flex;
   gap: 1rem;
+  z-index:10;
 }
 
 .action__btns button {
@@ -146,7 +147,6 @@ ul li a:hover {
   outline: none;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  transition: 0.3s;
 }
 
 .contact-me {
@@ -154,7 +154,7 @@ ul li a:hover {
   color: #ffffff;
 }
 
-.contact_me:hover {
+.contact-me:hover {
   background-color: var(--primary-color-dark);
 }
 
