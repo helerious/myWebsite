@@ -240,6 +240,7 @@ ul li a:hover {
   margin:auto;
   display:block;
   margin-top: 20px;
+  border-radius: 10%;
 }
 .about-me-text{
   align-items: center;
