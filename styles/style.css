@@ -147,15 +147,14 @@ ul li a:hover {
   border: 2px solid var(--primary-color);
   border-radius: 10px;
   transition: 0.3s;
-  cursor: pointer;
 }
 
-.hire__me {
+.contact-me {
   background-color: var(--primary-color);
   color: #ffffff;
 }
 
-.hire__me:hover {
+.contact_me:hover {
   background-color: var(--primary-color-dark);
 }
 
