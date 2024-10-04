@@ -30,7 +30,6 @@ nav {
   top: 0;
   left: 0;
   background-color: #ffffff;
-  z-index: 99;
 }
 
 .nav__content {
@@ -160,6 +159,7 @@ ul li a:hover {
 
 .portfolio {
   color: var(--primary-color);
+  background-color: white;
 }
 
 .portfolio:hover {
@@ -224,28 +224,30 @@ ul li a:hover {
   padding: 1rem;
 }
 .about-me-body{
-  max-width: 50%;
+  max-width: 80%;
+  min-width: 50%;
   margin: auto;
+  display:flex;
 }
 .about-me-header{
   font-weight: 600;
   width:50%;
-  margin:auto;
   margin-top: 100px;
+  color:#1f2937;
 }
 .about-me-image{
-  width:40%;
-  height:40%;
+  max-width:350px;
   margin:auto;
   display:block;
-  margin-top: 20px;
-  border-radius: 10%;
+  margin-top: 250px;
+  border-radius: 50%;
+  filter:brightness(1.05);
 }
 .about-me-text{
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
   color:var(--text-light);
-  margin-left: auto;
+  margin-left: 150px;
 }
 .about-me-gary{
   font-size: 10px;
@@ -260,4 +262,74 @@ ul li a:hover {
   min-height: 90vh;
   width: 80vw;
   margin-left:10%;
+}
+.portfolio-body{
+  background-color: var(--extra-light);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.portfolio-content{
+  padding-top:90px;
+}
+.portfolio-content h1{
+  text-align :center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color:var(--primary-color);
+  font-weight: 600;
+  padding-top:30px;
+  padding-bottom:20px;
+  font-size: x-large;
+}
+.portfolio-content p{
+  padding-top:20px;
+  padding-left:20%;
+  padding-right:20%;
+}
+
+.portfolio-div{
+  height:550px;
+  width: 600px;
+  margin:auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.portfolio-div img{
+  width:50%;
+  margin:auto;
+  display:block;
+  max-width:100%;
+  max-height:250px;
+}
+.portfolio-div button{
+  display:block;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.portfolio-div button:hover{
+  cursor: pointer;
+  background-color: var(--primary-color-dark);
+}
+
+.footer{
+  height:20px;
+  background-color: var(--extra-light);
+}
+
+.footer p{
+  margin-left:10px;
+  font-size: x-small;
 }
