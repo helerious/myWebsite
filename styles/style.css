@@ -333,3 +333,30 @@ ul li a:hover {
   margin-left:10px;
   font-size: x-small;
 }
+
+.alert {
+  position:absolute;
+  width: 100vw;
+  margin-top: 80px;
+  padding: 20px;
+  background-color:#7863b9; /* Red */
+  color: white;
+  text-align: center;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
