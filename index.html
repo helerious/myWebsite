@@ -10,6 +10,7 @@
     />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="./images/lotus.png"/>
+    <script type="text/javascript" src="js/sparkles.js" id="sparkle"></script>
     <title>Web Design Mastery | Responsive Portfolio</title>
   </head>
   <body>
@@ -57,6 +58,14 @@
         </div>
       </div>
     </section>
+    <script>
+      window.addEventListener('scroll', () => {
+        const maxScroll = document.body.scrollHeight - window.innerHeight;
+        if (window.scrollY > maxScroll) {
+          window.scrollTo(0, maxScroll);
+        }
+      });
+    </script>
   </body>
   <footer class="footer">
     <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by 

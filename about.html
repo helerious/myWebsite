@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="./images/lotus.png"/>
+    <script type="text/javascript" src="js/sparkles.js"></script>
     <title>Helen Responsive Portfolio- About Page</title>
   </head>
   <body>
@@ -53,6 +54,14 @@
             </div>
         </div>
     </section>  
+    <script>
+      window.addEventListener('scroll', () => {
+        const maxScroll = document.body.scrollHeight - window.innerHeight;
+        if (window.scrollY > maxScroll) {
+          window.scrollTo(0, maxScroll);
+        }
+      });
+    </script>
   </body>
   <footer class="footer">
     <p class="copyright-text">Copyright &copy; 2025 All Rights Reserved by 

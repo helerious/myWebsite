@@ -9,6 +9,9 @@
   --extra-light: #faf5ff;
   --max-width: 1200px;
 }
+html,body{
+  max-height: 100vh
+}
 
 * {
   padding: 0;
